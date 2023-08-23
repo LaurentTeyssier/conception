@@ -437,9 +437,9 @@
 												"$ref": "AAAAAAGIvlVZYX3RvBg="
 											},
 											"font": "Arial;13;0",
-											"left": 236,
+											"left": 255,
 											"top": 107,
-											"width": 300,
+											"width": 262.30419921875,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -447,8 +447,7 @@
 												"$ref": "AAAAAAGIvlVZYX3SSMQ="
 											},
 											"edgePosition": 1,
-											"text": "1 : sélectionner supprimer assignation logiciel",
-											"wordWrap": true
+											"text": "1 : sélectionner supprimer assignation logiciel"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -549,9 +548,9 @@
 												"$ref": "AAAAAAGIvlWcWX3o7M0="
 											},
 											"font": "Arial;13;0",
-											"left": 602,
+											"left": 603,
 											"top": 147,
-											"width": 159.66259765625,
+											"width": 156.05712890625,
 											"height": 13,
 											"alpha": 1.582030807790552,
 											"distance": 89.00561780022652,
@@ -642,44 +641,44 @@
 								},
 								{
 									"_type": "UMLSeqMessageView",
-									"_id": "AAAAAAGKHZAzi+Akt+A=",
+									"_id": "AAAAAAGKIWDbY2tjO+Q=",
 									"_parent": {
 										"$ref": "AAAAAAGIvlSUkH1d46E="
 									},
 									"model": {
-										"$ref": "AAAAAAGKHZAzi+AjBMw="
+										"$ref": "AAAAAAGKIWDbY2ti4cs="
 									},
 									"subViews": [
 										{
 											"_type": "EdgeLabelView",
-											"_id": "AAAAAAGKHZAzi+AlLWU=",
+											"_id": "AAAAAAGKIWDbY2tkG8I=",
 											"_parent": {
-												"$ref": "AAAAAAGKHZAzi+Akt+A="
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
 											},
 											"model": {
-												"$ref": "AAAAAAGKHZAzi+AjBMw="
+												"$ref": "AAAAAAGKIWDbY2ti4cs="
 											},
 											"font": "Arial;13;0",
-											"left": 599,
+											"left": 607,
 											"top": 211,
-											"width": 170.5361328125,
+											"width": 184.970703125,
 											"height": 13,
-											"alpha": 1.581664462790832,
-											"distance": 92.00543462209176,
+											"alpha": 1.5801408482290242,
+											"distance": 107.00467279516349,
 											"hostEdge": {
-												"$ref": "AAAAAAGKHZAzi+Akt+A="
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
 											},
 											"edgePosition": 1,
-											"text": "3 : Vérifier si logiciel assigné"
+											"text": "3 : Vérifier si logiciel est assigné"
 										},
 										{
 											"_type": "EdgeLabelView",
-											"_id": "AAAAAAGKHZAzi+AmiI0=",
+											"_id": "AAAAAAGKIWDbY2tlm0g=",
 											"_parent": {
-												"$ref": "AAAAAAGKHZAzi+Akt+A="
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
 											},
 											"model": {
-												"$ref": "AAAAAAGKHZAzi+AjBMw="
+												"$ref": "AAAAAAGKIWDbY2ti4cs="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
@@ -689,18 +688,18 @@
 											"alpha": 1.5707963267948966,
 											"distance": 25,
 											"hostEdge": {
-												"$ref": "AAAAAAGKHZAzi+Akt+A="
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
 											},
 											"edgePosition": 1
 										},
 										{
 											"_type": "EdgeLabelView",
-											"_id": "AAAAAAGKHZAzi+AnQjY=",
+											"_id": "AAAAAAGKIWDbY2tm7KI=",
 											"_parent": {
-												"$ref": "AAAAAAGKHZAzi+Akt+A="
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
 											},
 											"model": {
-												"$ref": "AAAAAAGKHZAzi+AjBMw="
+												"$ref": "AAAAAAGKIWDbY2ti4cs="
 											},
 											"visible": false,
 											"font": "Arial;13;0",
@@ -710,18 +709,18 @@
 											"alpha": -1.5707963267948966,
 											"distance": 10,
 											"hostEdge": {
-												"$ref": "AAAAAAGKHZAzi+Akt+A="
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
 											},
 											"edgePosition": 1
 										},
 										{
 											"_type": "UMLActivationView",
-											"_id": "AAAAAAGKHZAzi+Ao9l0=",
+											"_id": "AAAAAAGKIWDbY2tnoFU=",
 											"_parent": {
-												"$ref": "AAAAAAGKHZAzi+Akt+A="
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
 											},
 											"model": {
-												"$ref": "AAAAAAGKHZAzi+AjBMw="
+												"$ref": "AAAAAAGKIWDbY2ti4cs="
 											},
 											"font": "Arial;13;0",
 											"left": 556,
@@ -739,16 +738,16 @@
 									},
 									"points": "562:208;592:208;592:228;569:228",
 									"nameLabel": {
-										"$ref": "AAAAAAGKHZAzi+AlLWU="
+										"$ref": "AAAAAAGKIWDbY2tkG8I="
 									},
 									"stereotypeLabel": {
-										"$ref": "AAAAAAGKHZAzi+AmiI0="
+										"$ref": "AAAAAAGKIWDbY2tlm0g="
 									},
 									"propertyLabel": {
-										"$ref": "AAAAAAGKHZAzi+AnQjY="
+										"$ref": "AAAAAAGKIWDbY2tm7KI="
 									},
 									"activation": {
-										"$ref": "AAAAAAGKHZAzi+Ao9l0="
+										"$ref": "AAAAAAGKIWDbY2tnoFU="
 									}
 								},
 								{
@@ -1666,7 +1665,7 @@
 									"top": 816,
 									"width": 400,
 									"height": 80,
-									"text": "(5) Scénario d'erreur : le Modérateur a annulé la suppression\n5.1 Le SI indique au Modérateur que la suppression a été annulée.\nLe scénario s'arrête ici."
+									"text": "(6) Scénario d'erreur : le Modérateur a annulé la suppression\n6.1 Le SI indique au Modérateur que la suppression a été annulée.\nLe scénario s'arrête ici."
 								},
 								{
 									"_type": "UMLNoteView",
@@ -1696,16 +1695,16 @@
 								},
 								{
 									"_type": "UMLNoteView",
-									"_id": "AAAAAAGKHZCsN+A+3rc=",
+									"_id": "AAAAAAGKIWLEGGt8TCs=",
 									"_parent": {
 										"$ref": "AAAAAAGIvlSUkH1d46E="
 									},
 									"font": "Arial;13;0",
-									"left": 48,
+									"left": 56,
 									"top": 824,
 									"width": 393,
-									"height": 68,
-									"text": " (3) Scénario d'erreur : logiciel non assigné\n3.1 Le SI informe le modérateur que le logiciel n'est pas assigné.\nLe scénario s'arrête ici."
+									"height": 65,
+									"text": " (3) Scénario d'erreur : le logiciel n'est pas assigné\n3.1 Le SI informe le modérateur que le logiciel n'est pas assigné.\nLe scénario s'arrête ici."
 								}
 							]
 						}
@@ -1741,11 +1740,11 @@
 						},
 						{
 							"_type": "UMLMessage",
-							"_id": "AAAAAAGKHZAzi+AjBMw=",
+							"_id": "AAAAAAGKIWDbY2ti4cs=",
 							"_parent": {
 								"$ref": "AAAAAAGIvlSUkH1c7OU="
 							},
-							"name": "Vérifier si logiciel assigné",
+							"name": "Vérifier si logiciel est assigné",
 							"source": {
 								"$ref": "AAAAAAGIvlTuN32MYY0="
 							},

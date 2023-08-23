@@ -173,14 +173,14 @@
 											"left": 224,
 											"top": 80,
 											"width": 1,
-											"height": 647
+											"height": 771
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 168,
 									"top": 40,
 									"width": 112.4599609375,
-									"height": 687,
+									"height": 811,
 									"nameCompartment": {
 										"$ref": "AAAAAAGIvlTnKH1vfwU="
 									},
@@ -289,14 +289,14 @@
 											"left": 556,
 											"top": 80,
 											"width": 1,
-											"height": 647
+											"height": 771
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 40,
 									"width": 72.736328125,
-									"height": 687,
+									"height": 811,
 									"nameCompartment": {
 										"$ref": "AAAAAAGIvlTuN32OPPg="
 									},
@@ -437,9 +437,9 @@
 												"$ref": "AAAAAAGIvlVZYX3RvBg="
 											},
 											"font": "Arial;13;0",
-											"left": 280,
+											"left": 250,
 											"top": 107,
-											"width": 213.88427734375,
+											"width": 272.42236328125,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -447,7 +447,7 @@
 												"$ref": "AAAAAAGIvlVZYX3SSMQ="
 											},
 											"edgePosition": 1,
-											"text": "1 : sélectionner supprimer un compte"
+											"text": "1 : sélectionner assigner matériel à un employé"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -548,9 +548,9 @@
 												"$ref": "AAAAAAGIvlWcWX3o7M0="
 											},
 											"font": "Arial;13;0",
-											"left": 603,
+											"left": 602,
 											"top": 147,
-											"width": 156.05712890625,
+											"width": 159.66259765625,
 											"height": 13,
 											"alpha": 1.582030807790552,
 											"distance": 89.00561780022652,
@@ -558,7 +558,7 @@
 												"$ref": "AAAAAAGIvlWcWX3p5DA="
 											},
 											"edgePosition": 1,
-											"text": "2 : Vérifier si compte existe"
+											"text": "2 : Vérifier si matériel existe"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -641,6 +641,117 @@
 								},
 								{
 									"_type": "UMLSeqMessageView",
+									"_id": "AAAAAAGKIWDbY2tjO+Q=",
+									"_parent": {
+										"$ref": "AAAAAAGIvlSUkH1d46E="
+									},
+									"model": {
+										"$ref": "AAAAAAGKIWDbY2ti4cs="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGKIWDbY2tkG8I=",
+											"_parent": {
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
+											},
+											"model": {
+												"$ref": "AAAAAAGKIWDbY2ti4cs="
+											},
+											"font": "Arial;13;0",
+											"left": 607,
+											"top": 211,
+											"width": 184.970703125,
+											"height": 13,
+											"alpha": 1.5801408482290242,
+											"distance": 107.00467279516349,
+											"hostEdge": {
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
+											},
+											"edgePosition": 1,
+											"text": "3 : Vérifier si employé existe"
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGKIWDbY2tlm0g=",
+											"_parent": {
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
+											},
+											"model": {
+												"$ref": "AAAAAAGKIWDbY2ti4cs="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 616,
+											"top": 211,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 25,
+											"hostEdge": {
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGKIWDbY2tm7KI=",
+											"_parent": {
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
+											},
+											"model": {
+												"$ref": "AAAAAAGKIWDbY2ti4cs="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 582,
+											"top": 212,
+											"height": 13,
+											"alpha": -1.5707963267948966,
+											"distance": 10,
+											"hostEdge": {
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
+											},
+											"edgePosition": 1
+										},
+										{
+											"_type": "UMLActivationView",
+											"_id": "AAAAAAGKIWDbY2tnoFU=",
+											"_parent": {
+												"$ref": "AAAAAAGKIWDbY2tjO+Q="
+											},
+											"model": {
+												"$ref": "AAAAAAGKIWDbY2ti4cs="
+											},
+											"font": "Arial;13;0",
+											"left": 556,
+											"top": 228,
+											"width": 14,
+											"height": 29
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAGIvlTuN32Tv1I="
+									},
+									"tail": {
+										"$ref": "AAAAAAGIvlTuN32Tv1I="
+									},
+									"points": "562:208;592:208;592:228;569:228",
+									"nameLabel": {
+										"$ref": "AAAAAAGKIWDbY2tkG8I="
+									},
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGKIWDbY2tlm0g="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGKIWDbY2tm7KI="
+									},
+									"activation": {
+										"$ref": "AAAAAAGKIWDbY2tnoFU="
+									}
+								},
+								{
+									"_type": "UMLSeqMessageView",
 									"_id": "AAAAAAGIvlaGgX4yR/U=",
 									"_parent": {
 										"$ref": "AAAAAAGIvlSUkH1d46E="
@@ -659,17 +770,17 @@
 												"$ref": "AAAAAAGIvlaGgH4xo4s="
 											},
 											"font": "Arial;13;0",
-											"left": 249,
-											"top": 348,
+											"left": 256,
+											"top": 351,
 											"width": 273.15234375,
 											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
+											"alpha": 1.9756887165280996,
+											"distance": 15.231546211727817,
 											"hostEdge": {
 												"$ref": "AAAAAAGIvlaGgX4yR/U="
 											},
 											"edgePosition": 1,
-											"text": "3 : Demander une confirmation de suppression"
+											"text": "4 : Demander confirmation assignation"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -781,7 +892,7 @@
 												"$ref": "AAAAAAGIvlbVUH5KGQ8="
 											},
 											"edgePosition": 1,
-											"text": "4 : Confirmer la suppression"
+											"text": "5 : Confirmer assignation"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -892,7 +1003,7 @@
 												"$ref": "AAAAAAGIvlcMmH5i1sI="
 											},
 											"edgePosition": 1,
-											"text": "5 : Vérifier la confirmation"
+											"text": "6 : Vérifier la confirmation"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1003,7 +1114,7 @@
 												"$ref": "AAAAAAGIvldLYX55cJo="
 											},
 											"edgePosition": 1,
-											"text": "6 : Envoyer la requête(DELETE)"
+											"text": "7 : Envoyer la requête"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1114,7 +1225,7 @@
 												"$ref": "AAAAAAGIvleCNn6QPkY="
 											},
 											"edgePosition": 1,
-											"text": "7 : Exécuter la requête de suppression"
+											"text": "8 : Exécuter la requête"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1225,7 +1336,7 @@
 												"$ref": "AAAAAAGIvlfrm36tPuk="
 											},
 											"edgePosition": 1,
-											"text": "8 : Retourner la réponse de la BDD"
+											"text": "9 : Retourner la réponse de la BDD"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1337,7 +1448,7 @@
 												"$ref": "AAAAAAGIvlgTyn7Dm4A="
 											},
 											"edgePosition": 1,
-											"text": "9 : Vérifier la réponse de la BDD"
+											"text": "10 : Vérifier la réponse de la BDD"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1438,9 +1549,9 @@
 												"$ref": "AAAAAAGIvlhL6n7Zhe0="
 											},
 											"font": "Arial;13;0",
-											"left": 271,
+											"left": 256,
 											"top": 700,
-											"width": 228.81396484375,
+											"width": 258.21630859375,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10,
@@ -1448,7 +1559,7 @@
 												"$ref": "AAAAAAGIvlhL6n7awQM="
 											},
 											"edgePosition": 1,
-											"text": "10 : Afficher message compte supprimé"
+											"text": "11 : Afficher message assignation effectuée"
 										},
 										{
 											"_type": "EdgeLabelView",
@@ -1541,7 +1652,7 @@
 									"top": 744,
 									"width": 393,
 									"height": 65,
-									"text": " (2) Scénario d'erreur : le compte n'existe pas\n2.1 Le SI informe le modérateur que le compte n'existe pas.\nLe scénario s'arrête ici."
+									"text": " (2) Scénario d'erreur : le matériel n'existe pas\n2.1 Le SI informe le modérateur que le matériel n'existe pas.\nLe scénario s'arrête ici."
 								},
 								{
 									"_type": "UMLNoteView",
@@ -1554,7 +1665,7 @@
 									"top": 816,
 									"width": 400,
 									"height": 80,
-									"text": "(5) Scénario d'erreur : le Modérateur a annulé la suppression\n5.1 Le SI indique au Modérateur que la suppression a été annulée.\nLe scénario s'arrête ici."
+									"text": "(6) Scénario d'erreur : le Modérateur a annulé assignation\n6.1 Le SI indique au Modérateur que l'assignation a été annulée.\nLe scénario s'arrête ici."
 								},
 								{
 									"_type": "UMLNoteView",
@@ -1567,7 +1678,7 @@
 									"top": 728,
 									"width": 336,
 									"height": 72,
-									"text": "(6) Scénario d'erreur : BDD HS\n6.1 Le SI indique au Modérateur que la BDD est HS\nLe scénario s'arrête ici."
+									"text": "(7) Scénario d'erreur : BDD HS\n7.1 Le SI indique au Modérateur que la BDD est HS\nLe scénario s'arrête ici."
 								},
 								{
 									"_type": "UMLNoteView",
@@ -1580,7 +1691,20 @@
 									"top": 816,
 									"width": 344,
 									"height": 81,
-									"text": "(9) Scénario d'erreur : Suppression impossible.\n9.1 Le SI indique au Modérateur que la suppression est impossible.\nLe scénario s'arrête ici."
+									"text": "(10) Scénario d'erreur : Assignation impossible.\n10.1 Le SI indique au Modérateur que l'assignation est impossible.\nLe scénario s'arrête ici."
+								},
+								{
+									"_type": "UMLNoteView",
+									"_id": "AAAAAAGKIWLEGGt8TCs=",
+									"_parent": {
+										"$ref": "AAAAAAGIvlSUkH1d46E="
+									},
+									"font": "Arial;13;0",
+									"left": 56,
+									"top": 824,
+									"width": 393,
+									"height": 65,
+									"text": "  (3) Scénario d'erreur : l'employé n'existe pas\n3.1 Le SI informe le modérateur que l'employé n'existe pas.\nLe scénario s'arrête ici."
 								}
 							]
 						}
@@ -1592,7 +1716,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIvlSUkH1c7OU="
 							},
-							"name": "sélectionner supprimer un compte",
+							"name": "sélectionner assigner matériel à un employé",
 							"source": {
 								"$ref": "AAAAAAGIvlTnJ31tZD8="
 							},
@@ -1606,7 +1730,21 @@
 							"_parent": {
 								"$ref": "AAAAAAGIvlSUkH1c7OU="
 							},
-							"name": "Vérifier si compte existe",
+							"name": "Vérifier si matériel existe",
+							"source": {
+								"$ref": "AAAAAAGIvlTuN32MYY0="
+							},
+							"target": {
+								"$ref": "AAAAAAGIvlTuN32MYY0="
+							}
+						},
+						{
+							"_type": "UMLMessage",
+							"_id": "AAAAAAGKIWDbY2ti4cs=",
+							"_parent": {
+								"$ref": "AAAAAAGIvlSUkH1c7OU="
+							},
+							"name": "Vérifier si employé existe",
 							"source": {
 								"$ref": "AAAAAAGIvlTuN32MYY0="
 							},
@@ -1620,7 +1758,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIvlSUkH1c7OU="
 							},
-							"name": "Demander une confirmation de suppression",
+							"name": "Demander confirmation assignation",
 							"source": {
 								"$ref": "AAAAAAGIvlTuN32MYY0="
 							},
@@ -1635,7 +1773,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIvlSUkH1c7OU="
 							},
-							"name": "Confirmer la suppression",
+							"name": "Confirmer assignation",
 							"source": {
 								"$ref": "AAAAAAGIvlTnJ31tZD8="
 							},
@@ -1669,8 +1807,7 @@
 							},
 							"target": {
 								"$ref": "AAAAAAGIvlT2T32r9DA="
-							},
-							"arguments": "DELETE"
+							}
 						},
 						{
 							"_type": "UMLMessage",
@@ -1678,7 +1815,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIvlSUkH1c7OU="
 							},
-							"name": "Exécuter la requête de suppression",
+							"name": "Exécuter la requête",
 							"source": {
 								"$ref": "AAAAAAGIvlT2T32r9DA="
 							},
@@ -1721,7 +1858,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIvlSUkH1c7OU="
 							},
-							"name": "Afficher message compte supprimé",
+							"name": "Afficher message assignation effectuée",
 							"source": {
 								"$ref": "AAAAAAGIvlTuN32MYY0="
 							},
